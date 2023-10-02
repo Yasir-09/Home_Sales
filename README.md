@@ -1,7 +1,7 @@
 # Home_Sales
 This is challenge 22 for the UofT SCS Data Analytics Boot Camp 
 **About the Challenge**
-This project required to apply PySpark and SparkSQL dependencies to analyze home sales data. It reads data from an AWS S3 bucket, converts the data to a Spark DataFrame, creates temporary views of the data, caches the views, and performs various SQL queries on the cached data.
+This project required to apply PySpark and SparkSQL dependencies to analyze home sales data. It reads data from an AWS S3 bucket, converts the data to a Spark DataFrame, creates temporary views of the data, caches the views, and performs various SQL queries on the cached data.<br>
 The script requires Spark and Java to be installed. It downloads and installs the latest version of Spark, and I downloaded spark-3.5.0 3.x, installs Java, and sets environment variables. It also imports the necessary packages, including pandas and findspark.
 **Following task were performed to apply queries on the home sales data as required by the challenge:**
 •	Read in the AWS S3 bucket into a DataFrame. 
