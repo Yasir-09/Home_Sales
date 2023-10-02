@@ -10,13 +10,11 @@ The script requires Spark and Java to be installed. It downloads and installs th
 **Following task were performed to apply queries on the home sales data as required by the challenge:**
 
 •	Read in the AWS S3 bucket into a DataFrame.
-
 <br>•	Created a temporary view of the DataFrame.<br>
-
-<br>•	Determined the average price for a four-bedroom house sold in each year rounded to two decimal places?<br> 
-•	Determined the average price of a home for each year the home was built that have 3 bedrooms and 3 bathrooms rounded to two decimal places? 
-•	Found the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places? 
-•	Found what is the "view" rating for the average price of a home, rounded to two decimal places, where the homes are greater than or equal to $350,000?Although this is a small dataset, determine the run time for this query. 
+<br>•	Determined the average price for a four-bedroom house sold in each year rounded to two decimal places.<br> 
+<br>•	Determined the average price of a home for each year the home was built that have 3 bedrooms and 3 bathrooms rounded to two decimal places. <br>
+<br>•	Found the average price of a home for each year built that have 3 bedrooms, 3 bathrooms, with two floors, and are greater than or equal to 2,000 square feet rounded to two decimal places.<br> 
+<br>•	Found what is the "view" rating for the average price of a home, rounded to two decimal places, where the homes are greater than or equal to $350,000. Although this is a small dataset, determine the run time for this query.<br>
 •	Cached the temporary table home_sales. 
 •	Checked if the table was cached.
 •	Used the cached data, run the query that filters out the view ratings with average price greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime. 
